@@ -1,5 +1,6 @@
 # import necessary libraries
 from models import create_classes
+import psycopg2
 import os
 from flask import (
     Flask,
