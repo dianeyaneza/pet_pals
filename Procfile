@@ -1,1 +1,1 @@
-worker: python3 pet_pals/app.py
+web: gunicorn app:app
